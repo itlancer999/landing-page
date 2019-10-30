@@ -11,159 +11,216 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link href="bootstrap.css" rel="stylesheet" media="screen">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--<script type="text/javascript" src="script.js"></script>-->
+
+
+
 </head>
 
 <body>
 <header id="header">
-  
-        <div>
-            <div id="logo">
-                <img src="" alt="Logo" id="header-img">
-                <i class="fas fa-flask"></i>
-            </div>
-            <div id="title">Golden Gifts</div>
-        </div>
-  <nav id="nav-bar" class="navbar navbar-default">
-    
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent trn" id="nav">
+  <a class="navbar-brand" id="title" href="#">Golden Gifts</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ml-auto mx-auto nav-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">About</a>
+      </li>
       
-      <ul id="nav-right" class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="#home" class="nav-link">Home</a>
+        <a class="nav-link" href="#third-sec">Contact</a>
       </li>
-                            
-      <li class="nav-item">
-      <a href="#services" class="nav-link">Services</a>
-      </li>
-      <li class="nav-item">
-      <a href="#contact" class="nav-link">Contact</a>
-      </li>
-      </ul>
-                   
-               
-  </nav>
+    </ul>
+    
+  </div>
+</nav>
 
 </header>
         
 <main>
   <section id="home">
-    <div class="container-fluid">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
     <h1 id="heading">Send beautiful gifts to your loved ones.</h1>
-    <form  action="https://www.freecodecamp.com/email-submit" id="form">
+    <form  action="#" id="form">
       <input type="email" name="email" id="email" placeholder="Enter your email here" required>
       <input type="submit" value="MORE INFO" id="submit">
     </form>
     </div>
+  </div>
+</div>
   </section>
-  
+
   
   <section id="services">
-    <div class="container-fluid">
+    <div class="container">
       
-      <div class="row">
-      <div class="col">
-        <p class="heading-1">
+      <div class="row text-center">
+      <div class="col-12">
+        <p class="heading-1 p-4">
                               Catagories
         </p>
-        <p class="heading-2">Have a Look</p><hr class="bg-dark">
+        <p class="heading-2">Have a Look</p><hr class="sec-heading">
       </div>
       </div>
       
-      <div class="card-column">
+      <div class="container text-center">
 
-        <div class="card">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Peach_flowers.jpg" width="280" height="341" alt="gift">
-        <div class="card-body">
-         <h2 class="heading-3">Floral Gifts</h2>
-         <p class="details"> Give to your loved ones unique <br/>floral gifts to show affection <br/>and love from our latest collection.</p>
-         <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+        <div class="row pt-5">
+          <div class="col-sm pb-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Peach_flowers.jpg" width="250" height="280" alt="gift">
+        
+            <h2 class="heading-3">Floral Gifts</h2>
+            <p class="details"> Give to your loved ones unique floral gifts to show affection and love from our latest collection.</p>
+            <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
         </div>
-        </div>
+        
       
 
-        <div class="card">
-         <img src="https://vignette.wikia.nocookie.net/austinally/images/0/0c/Chocolate_%2820%29.jpg/revision/latest?cb=20140112155307" width="280" height="341" alt="gift">
-        <div class="card-body">
-         <h2 class="heading-3">Foodies</h2>
-         <p class="details"> Our Gourmet gift basket collection<br/> are like no other, we source the best <br/>goodies to satisfy any taste bud.</p>
-           <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+        <div class="col-sm pb-2">
+          <img src="https://vignette.wikia.nocookie.net/austinally/images/0/0c/Chocolate_%2820%29.jpg/revision/latest?cb=20140112155307" width="250" height="280" alt="gift">
+        
+          <h2 class="heading-3">Foodies</h2>
+          <p class="details"> Our Gourmet gift basket collection are like no other, we source the best goodies to satisfy any taste bud.</p>
+          <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
         </div>
-        </div>
+        
       
-        <div class="card">
-          <img src="http://www.whatchaworkinon.com/wp-content/uploads/2016/02/opentopheart2-e1454966298896.jpg" width="280" height="341" alt="gift">
-          <div class="card-body">
-        <h2 class="heading-3">Share the Love</h2>
-        <p class="details">We take extra care in creating gift <br/>baskets to ensure something special<br/> and unique for your loved ones!</p>
-            <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+         <div class=" col-sm pb-2">
+          <img src="http://www.whatchaworkinon.com/wp-content/uploads/2016/02/opentopheart2-e1454966298896.jpg" width="250" height="280" alt="gift">
+         
+          <h2 class="heading-3">Share the Love</h2>
+          <p class="details">We take extra care in creating gift baskets to ensure something special and unique for your loved ones!</p>
+          <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
         </div>
           </div>
-      
-        <div class="card">
-          <img src="https://alexnld.com/wp-content/uploads/2016/07/c1b895e5-f7fc-4e89-98ea-41d5424fea8d.jpg"  width="280" height="341" alt="gift">
-          <div class="card-body">
-        <h2 class="heading-3">Holiday Gifts</h2>
-        <p class="details">The perfect gift basket for everyone<br/> on your list. Shop our holiday gift <br/>basket collection!</p>
-            <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+
+      <div class="row pt-5">
+         <div class="col-sm">
+          <img src="https://alexnld.com/wp-content/uploads/2016/07/c1b895e5-f7fc-4e89-98ea-41d5424fea8d.jpg"  width="250" height="280" alt="gift">
+         
+          <h2 class="heading-3">Holiday Gifts</h2>
+          <p class="details">The perfect gift basket for everyone on your list. Shop our holiday gift basket collection with new variety!</p>
+          <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
           </div>
-          </div>
+         
       
-        <div class="card">
-          <img src="http://veipd.org/earlyintervention/wp-content/uploads/2015/12/gift.jpg" width="280" height="341" alt="gift">
-          <div class="card-body">
-        <h2 class="heading-3">Gift Collection</h2>
-        <p class="details">Take a look our collection to get<br/> ideas of how you can add more <br/>love to the lives of your loved ones.</p>
-            <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+        <div class="col-sm pb-2">
+          <img src="http://veipd.org/earlyintervention/wp-content/uploads/2015/12/gift.jpg" width="250" height="280" alt="gift">
+        
+          <h2 class="heading-3">Gift Collection</h2>
+          <p class="details">Take a look our collection to get ideas of how you can add more love to the lives of your loved ones.</p>
+          <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
         </div>
-          </div>
+         
       
-        <div class="card">
-          <img src="https://surrealhotels.com/wp-content/uploads/2014/10/Special_Offers2.jpg" width="280" height="341" alt="gift">
-          <div class="card-body">
-        <h2 class="heading-3">Special Offers</h2>
-        <p class="details"> Create beautiful memories by <br/>adding a $50.00 gift card to your<br/> basket for only $ 35.00.</p>
-            <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
+         <div class="col-sm pb-2">
+          <img src="https://surrealhotels.com/wp-content/uploads/2014/10/Special_Offers2.jpg" width="250" height="280" alt="gift">
+         
+          <h2 class="heading-3">Special Offers</h2>
+          <p class="details"> Create beautiful memories by adding a $50.00 gift card to your basket for only $ 35.00.</p>
+          <button class="btn"><i class="fa fa-arrow-right"></i> View here</button>
         </div>
-          </div>
+      </div>
     </div>
     </div>
   </section>
 
 
-  <section id="contact">
-    <div class="container-fluid">
+  <section id="third-sec">
+    <div class="container text-center">
     <div class="row">
-      <div class="col">
-      <p class="heading-4">
+      <div class="col-12">
+      <h1 class="heading-1">
                             Gift Wrapping Tutorials
-      </p>
-      <p class="heading-2">Learn new ways to add more Charm!</p><hr class="bg-dark">
-     </div>
-     </div>
-    <div class="video-container">
-            
-<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0OyVf9f0rcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
+      </h1>
+      <h3 class="heading-2">Learn new ways to add more Charm!</h3><hr class="sec-heading">
       </div>
+    </div>
+
+    <div class="embed-responsive embed-responsive-21by9">
+            
+<iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/0OyVf9f0rcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="p-3">
+  </div>
+      </div>
+     
   </section>
 </main>
 
-   <footer>
-    <div class="container-fluid">
-        <ul>
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#">Terms of Service</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-        </ul>
-     <div>
-       <p id="copy">Copyright 2018-End of World, Golden Gifts</p></div></div>
 
-    </footer>
+
+<footer class="page-footer font-small" id="footer">
+
+  
+  <div class="container">
+
+    <div class="row text-center d-flex justify-content-center">
+
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold foot">
+          <a href="#!">About</a>
+        </h6>
+      </div>
+      
+
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold foot">
+          <a href="#!">Privacy Policy</a>
+        </h6>
+      </div>
+  
+
+    
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold foot">
+          <a href="#!">Contact</a>
+        </h6>
+      </div>
+  
+
+    </div>
+
+
+    </div>
+   
+
+
+</div>
+  
+
+  
+
+</footer>
+  <div class="footer-copyright p-1 text-center copy">
+    <p>Copyright 2018-End of World, Golden Gifts</p></div></div>
+  </div>
 </body>
+
 </html>
