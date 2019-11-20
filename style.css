@@ -8,15 +8,21 @@ html,body
     background-image: linear-gradient(#cbab58,#cbab90);
 }
 
-
 .navbar-collapse .navbar-nav .nav-item .nav-link{
     color: #FF5733;
-    font-size: 1.2rem;
-    padding:20px;
+   
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color:#FF5740;
+   
+}
+
+.navbar-collapse .navbar-nav .nav-item .active>.nav-link{
+  color:#D38947!important;
 }
 
 #title,#logo { 
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #FF5733;
     margin-left: 1rem;
 }
@@ -29,9 +35,11 @@ html,body
   background: url(https://wallpaperplay.com/walls/full/d/5/3/63198.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height:100%;
   width:100%;
 }
+
 
 #heading {
   padding-top: 15rem;
