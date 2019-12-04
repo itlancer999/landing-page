@@ -17,8 +17,8 @@ html,body
    
 }
 
-.navbar-collapse .navbar-nav .nav-item .active>.nav-link{
-  color:#D38947!important;
+.navbar-light .navbar-nav .nav-link.active{
+  color:#D38947;
 }
 
 #title,#logo { 
