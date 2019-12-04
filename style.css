@@ -8,17 +8,17 @@ html,body
     background-image: linear-gradient(#cbab58,#cbab90);
 }
 
-.navbar-collapse .navbar-nav .nav-item .nav-link{
+.navbar-light .navbar-nav .nav-item .nav-link{
     color: #FF5733;
    
 }
-.navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
     color:#FF5740;
    
 }
 
-.navbar-light .navbar-nav .nav-link.active{
-  color:#D38947;
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#D38947!important;
 }
 
 #title,#logo { 
